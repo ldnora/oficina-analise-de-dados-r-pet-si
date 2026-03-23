@@ -1,0 +1,30 @@
+{
+  "name": "Análise de dados com R - PET-SI",
+  "image": "rocker/tidyverse:4.4.0",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r",
+        "rdebugger.r-debugger",
+        "mechatroner.rainbow-csv",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "r.rterm.linux": "/usr/local/bin/R",
+        "r.bracketedPaste": true,
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "postCreateCommand": "R -e \"if (file.exists('renv.lock')) { install.packages('renv'); renv::restore() }\"",
+  "forwardPorts": [8787],
+  "portsAttributes": {
+    "8787": {
+      "label": "RStudio Server",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "remoteEnv": {
+    "DISABLE_AUTH": "true"
+  }
+}
