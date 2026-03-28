@@ -14,4 +14,3 @@ print(typeof(aprovado))
 print(class(idade))
 print(class(nome))
 print(class(aprovado))
-
