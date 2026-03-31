@@ -7,7 +7,7 @@
 # importe a biblioteca dplyr
 # use a função filter()
 
-# o dataframe já foi importado 
+# o dataframe já foi importado
 dados <- mtcars
 
 # 2. Crie uma coluna chamada "potencia_por_peso" = hp / wt

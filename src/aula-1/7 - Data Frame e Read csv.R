@@ -16,8 +16,7 @@ print(dados$idade)
 
 # lendo um csv disponível na internet
 titanic <- read.csv(
-  "https://raw.githubusercontent.com/
-  datasciencedojo/datasets/master/titanic.csv"
+  "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 )
 
 

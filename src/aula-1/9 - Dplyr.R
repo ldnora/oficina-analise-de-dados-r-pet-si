@@ -13,9 +13,6 @@ require(dplyr)
 # também iremos utilizar o nosso dataset de carros
 
 dados <- mtcars
-# ou
-dados <- read.csv("./data/owid-co2-data.csv")
-
 
 
 # com a biblioteca instalada, importada em com o dataset em mão,
