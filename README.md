@@ -59,7 +59,12 @@ Nessa oficina, você irá aprender os fundamentos da análise de dados usando a 
 install.packages(c('renv', 'tidyverse', 'ggplot2'))
 ```
 
+### Opção 3: Online
 
+Também é possível rodar o R online. Segue uma lista de ferramentas online:
+
+- [myCompiler](https://www.mycompiler.io/pt/new/r) 
+- [WebR](https://webr.sh/)
 
 
 
