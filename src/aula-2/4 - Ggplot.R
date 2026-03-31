@@ -57,3 +57,6 @@ ggplot(dados, mapping = aes(x = Pclass, fill = factor(Survived))) +
     Y = "Quantidade",
     fill = "Sobreviveu"
   )
+
+# documentação:
+# https://ggplot2.tidyverse.org/

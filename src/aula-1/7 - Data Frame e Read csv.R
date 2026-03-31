@@ -10,21 +10,23 @@ print(dados)
 print(dados$idade)
 
 # traduzindo do inglês, read csv = leia o csv
-# serve para ler o csv (dataset) de uma pasta ou um local na internet para dentro do R
+# serve para ler o csv (dataset) de uma pasta
+# ou um local na internet para dentro do R
 
 
 # lendo um csv disponível na internet
-co2 <- read.csv(
-  "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv"
+titanic <- read.csv(
+  "https://raw.githubusercontent.com/
+  datasciencedojo/datasets/master/titanic.csv"
 )
 
 
 # lendo um csv dentro de uma pasta
-dados <- read.csv("./data/owid-co2-data.csv")
+dados <- read.csv("data/titanic.csv")
 
 
 # lendo um dataset de carros já prensente dentro do R
-dados <- mtcars 
+dados <- mtcars
 
 
 
@@ -58,4 +60,5 @@ names(dados)
 dados$mpg   # consumo em milhas por galão (mpg = miles per gallon)
 dados$hp    # potência em cavalos (hp = horse power)
 
-
+# leitura complementar:
+# https://www.w3schools.com/r/r_data_frames.asp

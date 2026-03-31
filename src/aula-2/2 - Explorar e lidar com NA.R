@@ -23,3 +23,6 @@ dados |>
   summarise(
     media_idade = mean(Age, na.rm = TRUE)
   )
+
+# leitura complementar:
+# https://statorials.org/pt/limpando-dados-em-r/

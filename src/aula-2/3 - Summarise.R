@@ -19,3 +19,5 @@ dados |>
     maximo = max(Age, na.rm = TRUE)
   )
 
+# leitura complementar:
+# https://dplyr.tidyverse.org/reference/summarise.html

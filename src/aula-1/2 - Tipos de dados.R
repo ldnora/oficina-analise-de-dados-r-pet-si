@@ -14,3 +14,7 @@ print(typeof(aprovado))
 print(class(idade))
 print(class(nome))
 print(class(aprovado))
+
+# leitura complementar:
+# https://www.datacamp.com/pt/doc/r/datatypes
+# https://www.datanovia.com/pt/learn/programming/r/basics/data-types-and-structures.html
