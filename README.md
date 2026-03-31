@@ -119,3 +119,8 @@ Você pode contatar o PET-SI, pelas seguintes redes:
 
 [Email: pet-si@inf.ufsm.br](mailto:pet-si@inf.ufsm.br)
 
+
+
+## Repositório
+
+[Github](https://github.com/ldnora/oficina-analise-de-dados-r-pet-si)
