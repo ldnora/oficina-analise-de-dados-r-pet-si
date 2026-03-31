@@ -62,7 +62,7 @@ dados |>
 
 dados_modificados <- dados |>
   mutate(
-    peso_kg          = wt * 453.592   # convertendo peso de lb para kg
+    peso_kg = wt * 453.592   # convertendo peso de lb para kg
   )
 
 head(dados_modificados) # veja que uma nova coluna foi adicionada

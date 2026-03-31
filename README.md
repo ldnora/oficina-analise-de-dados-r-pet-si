@@ -63,7 +63,7 @@ install.packages(c('renv', 'tidyverse', 'ggplot2'))
 
 Também é possível rodar o R online. Segue uma lista de ferramentas online:
 
-- [myCompiler](https://www.mycompiler.io/pt/new/r) 
+- [myCompiler](https://www.mycompiler.io/pt/new/r) (recomendado)
 - [WebR](https://webr.sh/)
 
 
