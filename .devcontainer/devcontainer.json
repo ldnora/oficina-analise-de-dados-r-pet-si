@@ -16,7 +16,7 @@
       }
     }
   },
-  "postCreateCommand": "R -e \"if (file.exists('renv.lock')) { install.packages(c('renv', 'tidyverse', 'ggplot')); renv::restore() }\"",
+  "postCreateCommand": "R -e \"if (file.exists('renv.lock')) { install.packages(c('renv', 'tidyverse', 'ggplot2')); renv::restore() }\"",
   "forwardPorts": [8787],
   "portsAttributes": {
     "8787": {
